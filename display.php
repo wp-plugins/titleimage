@@ -72,7 +72,7 @@
 		<div id="Titleimage">
 			<div class="TI_Inner">
 				<div class="TI_Image">
-					<?=nggSinglePicture($disp_picture_id, $disp_imgwidth, $disp_imgheight, '', '', 'titleimage');?>
+					<?=nggSinglePicture($disp_picture_id, $disp_imgwidth, $disp_imgheight);?>
 				</div>
 				<?php if ($disp_description != '') { ?>
 				<div class="TI_Description">
