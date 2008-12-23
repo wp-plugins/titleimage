@@ -4,7 +4,7 @@ Donate link:
 Tags: image, post
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 This plugin displays a manually or randomly selected image of a chosen gallery from the great plugin NextGEN Gallery.
 
