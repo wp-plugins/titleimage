@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: titleimage\n"
+"POT-Creation-Date: 2008-10-12 23:09+0200\n"
+"PO-Revision-Date: 2008-12-17 20:40+0100\n"
+"Last-Translator: Marc <marc@pixelshifter.de>\n"
+"Language-Team: pixelshifter.de <info@pixelshifter.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./wp\n"
+"X-Poedit-SearchPath-0: wp-content\\plugins\n"
+
+#: admin.php:4
+#: admin.php:50
+msgid "pluginname_titleimage"
+msgstr "Titleimage"
+
+#: admin.php:27
+msgid "msg_imagewidth_adjusted"
+msgstr "Die Bildbreitenangabe wurde angepasst."
+
+#: admin.php:35
+msgid "msg_imageheight_adjusted"
+msgstr "Die Bildhöhenangabe wurde angepasst."
+
+#: admin.php:40
+msgid "msg_data_saved"
+msgstr "Die Angaben wurden gespeichert."
+
+#: admin.php:51
+msgid "titleimage_description"
+msgstr "Dieses Plugin stellt die Funktion <code style=\"background-color: #FFFDC0\">showTitleimage()</code> bereit, über die Bilder aus einer Galerie des Plugins NextGEN Gallery dargestellt werden."
+
+#: admin.php:55
+msgid "lbl_status"
+msgstr "Status"
+
+#: admin.php:56
+msgid "lbl_active"
+msgstr "Aktiv"
+
+#: admin.php:59
+msgid "lbl_gallery"
+msgstr "Galerie"
+
+#: admin.php:62
+msgid "optval_selectgallery"
+msgstr "Galerie ausw&auml;hlen"
+
+#: admin.php:75
+msgid "lbl_imageselection"
+msgstr "Bildauswahl"
+
+#: admin.php:78
+msgid "optval_firstimage"
+msgstr "Erstes Bild"
+
+#: admin.php:79
+msgid "optval_randomimage"
+msgstr "Zuf&auml;lliges Bild"
+
+#: admin.php:84
+msgid "lbl_maximagewidth"
+msgstr "Max. Bildbreite"
+
+#: admin.php:88
+msgid "lbl_maximageheight"
+msgstr "Max. Bildh&ouml;he"
+
+#: admin.php:92
+msgid "lbl_imagtitle"
+msgstr "Bildtitel"
+
+#: admin.php:93
+msgid "lbl_display"
+msgstr "Anzeigen"
+
+#: admin.php:96
+msgid "lbl_alttitle"
+msgstr "Titel"
+
+#: admin.php:97
+msgid "desc_alttitle"
+msgstr "Alternativ zur Bildbeschreibung aus der Galerie"
+
+#: admin.php:100
+msgid "lbl_url"
+msgstr "URL"
+
+#: admin.php:101
+msgid "desc_optional"
+msgstr "Optional"
+
+#: admin.php:104
+msgid "lbl_style"
+msgstr "Stil"
+
+#: admin.php:105
+msgid "lbl_usedefaultstyle"
+msgstr "Default-Stil verwenden"
+
+#: admin.php:109
+msgid "btn_save"
+msgstr "Speichern"
+
