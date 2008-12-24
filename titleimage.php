@@ -3,7 +3,7 @@
 Plugin Name: Titleimage
 Plugin URI: http://www.pixelshifter.de/titleimage
 Description: This plugin provides the function <code style="background-color: #FFFDC0">showTitleimage()</code> to be used within your templates. It displays a manually or randomly selected image of a chosen gallery from the great plugin NextGEN Gallery, which is not a part of this plugin, by the way.
-Version: 0.5
+Version: 0.5.1
 Author: Marc Schmidt
 Author URI: http://www.pixelshifter.de/
 */
