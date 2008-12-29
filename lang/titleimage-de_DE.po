@@ -1,12 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: titleimage\n"
-"POT-Creation-Date: 2008-10-12 23:09+0200\n"
-"PO-Revision-Date: 2008-12-17 20:40+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-29 12:13+0100\n"
+"PO-Revision-Date: 2008-12-29 12:13+0100\n"
 "Last-Translator: Marc <marc@pixelshifter.de>\n"
 "Language-Team: pixelshifter.de <info@pixelshifter.de>\n"
 "MIME-Version: 1.0\n"
@@ -16,99 +13,152 @@ msgstr ""
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: ./wp\n"
-"X-Poedit-SearchPath-0: wp-content\\plugins\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
-#: admin.php:4
-#: admin.php:50
+#: ../admin.php:9
+#: ../admin.php:206
 msgid "pluginname_titleimage"
 msgstr "Titleimage"
 
-#: admin.php:27
+#: ../admin.php:32
+msgid "msg_nogalleryselected"
+msgstr "Derzeit ist keine Galerie ausgewählt. Es wird kein Bild angezeigt. "
+
+#: ../admin.php:40
 msgid "msg_imagewidth_adjusted"
 msgstr "Die Bildbreitenangabe wurde angepasst."
 
-#: admin.php:35
+#: ../admin.php:48
 msgid "msg_imageheight_adjusted"
 msgstr "Die Bildhöhenangabe wurde angepasst."
 
-#: admin.php:40
+#: ../admin.php:57
 msgid "msg_data_saved"
 msgstr "Die Angaben wurden gespeichert."
 
-#: admin.php:51
-msgid "titleimage_description"
-msgstr "Dieses Plugin stellt die Funktion <code style=\"background-color: #FFFDC0\">showTitleimage()</code> bereit, über die Bilder aus einer Galerie des Plugins NextGEN Gallery dargestellt werden."
-
-#: admin.php:55
+#: ../admin.php:211
 msgid "lbl_status"
 msgstr "Status"
 
-#: admin.php:56
+#: ../admin.php:213
 msgid "lbl_active"
 msgstr "Aktiv"
 
-#: admin.php:59
+#: ../admin.php:219
 msgid "lbl_gallery"
 msgstr "Galerie"
 
-#: admin.php:62
+#: ../admin.php:222
 msgid "optval_selectgallery"
-msgstr "Galerie ausw&auml;hlen"
+msgstr "Galerie ausw&auml;hlen ..."
 
-#: admin.php:75
+#: ../admin.php:229
 msgid "lbl_imageselection"
 msgstr "Bildauswahl"
 
-#: admin.php:78
+#: ../admin.php:232
 msgid "optval_firstimage"
 msgstr "Erstes Bild"
 
-#: admin.php:79
+#: ../admin.php:233
 msgid "optval_randomimage"
 msgstr "Zuf&auml;lliges Bild"
 
-#: admin.php:84
+#: ../admin.php:234
+msgid "lbl_image"
+msgstr "Bild ..."
+
+#: ../admin.php:242
+msgid "lbl_imagesize"
+msgstr "Bildgröße"
+
+#: ../admin.php:244
 msgid "lbl_maximagewidth"
 msgstr "Max. Bildbreite"
 
-#: admin.php:88
+#: ../admin.php:245
 msgid "lbl_maximageheight"
 msgstr "Max. Bildh&ouml;he"
 
-#: admin.php:92
-msgid "lbl_imagtitle"
-msgstr "Bildtitel"
+#: ../admin.php:251
+msgid "lbl_imagesubtitle"
+msgstr "Bilduntertitel"
 
-#: admin.php:93
-msgid "lbl_display"
-msgstr "Anzeigen"
+#: ../admin.php:254
+msgid "optval_nosubtitle"
+msgstr "Kein Bilduntertitel"
 
-#: admin.php:96
-msgid "lbl_alttitle"
-msgstr "Titel"
+#: ../admin.php:255
+msgid "optval_gallerydescription"
+msgstr "Galeriebeschreibung"
 
-#: admin.php:97
-msgid "desc_alttitle"
-msgstr "Alternativ zur Bildbeschreibung aus der Galerie"
+#: ../admin.php:256
+msgid "optval_imagedescription"
+msgstr "Bildbeschreibung"
 
-#: admin.php:100
+#: ../admin.php:257
+msgid "optval_individualtext"
+msgstr "Eigener Text"
+
+#: ../admin.php:268
 msgid "lbl_url"
-msgstr "URL"
+msgstr "Link"
 
-#: admin.php:101
+#: ../admin.php:268
 msgid "desc_optional"
 msgstr "Optional"
 
-#: admin.php:104
+#: ../admin.php:275
 msgid "lbl_style"
 msgstr "Stil"
 
-#: admin.php:105
+#: ../admin.php:276
 msgid "lbl_usedefaultstyle"
 msgstr "Default-Stil verwenden"
 
-#: admin.php:109
+#: ../admin.php:282
 msgid "btn_save"
 msgstr "Speichern"
+
+#: ../admin.php:330
+#: ../admin.php:348
+msgid "desc_no_description"
+msgstr "Keine Beschreibung verfügbar"
+
+#: ../admin.php:360
+msgid "help_basic_description"
+msgstr "<h5>Wozu \"Titleimage\" gut sein soll</h5><p>Das Plugin \"Titleimage\" stellt die PHP-Funktion <code style=\"background-color: #FFFDC0\">showTitleimage()</code> bereit, über die ein ausgewähltes oder zufälliges Bild aus einer Galerie des Plugins NextGEN Gallery dargestellt werden kann. Hierdurch ist es möglich z.B. auf der Startseite eine Art Titelbild anzuzeigen, welches immer an oberster Stelle platziert wird, unabhängig von den üblicherweise nach Datum sortierten aktuellen Posts.</p>"
+
+#: ../admin.php:361
+msgid "help_gui_description"
+msgstr "<h5>Optionen</h5><ul>\t<li>\t\t<strong>Status</strong><br/>\t\tSchaltet die Darstellung des Titelbildes generell an oder aus.\t</li>\t<li>\t\t<strong>Galerie</strong><br/>\t\tErmöglicht die Auswahl der Quellgalerie aus dem Plugin NextGEN Gallery.\t</li>\t<li><strong>Bildauswahl</strong><br/>\t\tLegt das anzuzeigende Bild aus der gewählten Galerie fest. Hierbei ist es möglich, das erste Bild, ein zufälliges Bild oder ein bestimmtes Bild für die Darstellung auszuwählen.\t</li>\t<li><strong>Bildgrö&szlig;e</strong><br/>\t\tLegt die maximale Bildbreite und/oder Bildhöhe fest, in der das Bild ausgegeben werden soll.\t</li>\t<li><strong>Bilduntertitel</strong><br/>\t\tSchaltet die Anzeige eines Bilduntertitels an Hand von verschiedenen Optionen an. Folgende Optionen sind möglich:\t\t<ul>\t\t\t<li>Galeriebeschreibung</li>\t\t\t<li>Bildbeschreibung</li>\t\t\t<li>Eigener Text</li>\t\t\t<li>Kein Bilduntertitel</li>\t\t</ul>\t</li>\t<li><strong>Link</strong><br/>\t\tErmöglicht die Angabe eines URL, mit dem der Bilduntertitel verlinkt wird.\t</li>\t<li><strong>Stil</strong><br/>\t\tDurch Aktivierung dieser Option wird angegeben, ob der Default Stil verwendet werden soll, oder das Design der Elemente über Stildefinitionen aus einer eigenen Stylesheet Datei erfolgt.\t</li></ul>"
+
+#: ../admin.php:362
+msgid "help_use_in_templates"
+msgstr "<h5>Verwendung im Template</h5><p>Die Darstellung des ausgewählten Bildes muss in einer Template-Datei Deines Themes (z.B. in der index.php) mit Hilfe des folgenden PHP Funktionsaufrufes eingebunden werden:&lt;?php showTitleimage(); ?&gt;</p>"
+
+#: ../admin.php:363
+msgid "help_furtherinformation"
+msgstr "<h5>Weitere Informationen &amp; Ressourcen</h5><p>\t<a href=\"http://wordpress.org/extend/plugins/titleimage/\">wordpress.org/extend/plugins/titleimage/</a><br/>\t<a href=\"http://www.pixelshifter.de/titleimage\">www.pixelshifter.de/titleimage</a><br/></p>\t"
+
+#~ msgid "titleimage_description"
+#~ msgstr ""
+#~ "Dieses Plugin stellt die Funktion <code style=\"background-color: #FFFDC0"
+#~ "\">showTitleimage()</code> bereit, über die Bilder aus einer Galerie des "
+#~ "Plugins NextGEN Gallery dargestellt werden."
+#~ msgid "contextual_help"
+#~ msgstr ""
+#~ "Dieses Plugin stellt die Funktion <code style=\"background-color: #FFFDC0"
+#~ "\">showTitleimage()</code> bereit, über die Bilder aus einer Galerie des "
+#~ "Plugins NextGEN Gallery dargestellt werden."
+#~ msgid "lbl_display"
+#~ msgstr "Anzeigen"
+#~ msgid "lbl_alttitle"
+#~ msgstr "Titel"
+#~ msgid "desc_alttitle"
+#~ msgstr "Alternativ zur Bildbeschreibung aus der Galerie"
+#~ msgid "lbl_nggtemplate"
+#~ msgstr "NGG Template"
 
