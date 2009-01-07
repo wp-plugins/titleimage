@@ -31,7 +31,7 @@ Localizations:
 
 
 = New in Version 0.7 =
-* The plugin will now work even without the PHP directive "short_open_tag" turned "off".
+* The plugin will now work even without the PHP directive "short_open_tag" turned "on".
 * The image can now get an own link, independet from the subtitle link, an additional link attributes to apply CSS classes etc.
 * GUI cleanup
 
