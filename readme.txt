@@ -4,7 +4,7 @@ Donate link:
 Tags: image, post
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 0.6
+Stable tag: 0.7
 
 This plugin displays a manually or randomly selected image of a chosen gallery from the great plugin NextGEN Gallery.
 
@@ -18,21 +18,21 @@ The following parameters are accessible on the Tools->Titleimage administration 
 * Gallery - Selects the NGG Ressource-Gallery
 * Image selection - Selects the image that should be displayed from the given gallery. It is possible to select the first image, a random image or a specified image.
 * Imagesize - Defines the maximum Imagewidth and -height.
+* Image Link - An URL with which the image will be linked.
+* Image Link Attributes - Additional attributes for the image link to apply CSS classes for Javascript Lightbox Effects etc.
 * Image Subtitle - Enables the image subtitle in different options (Gallery description, Image description, Individual text, No subtitlte).
-* Link - An URL eith which the subtitle will be linked.
+* Subtitle Link - An URL with which the subtitle will be linked.
 * Style - Defines wether the default CSS or an individual CSS File should be used.
 
 Localizations:
+
 * German
 * English
 
 
-= New in Version 0.6 =
-* You are now able to select a certain image, not only the first image or a random image.
-* The image subtitle can now consist of either the NGG gallery description, NGG image description or an individual text.
-* There's now a help text available via the new WP 2.7 feature "contextual help".
-* The NGG singlepic will not be used anymore.
-* The NGG image caching will be used, if activated.
+= New in Version 0.7 =
+* The plugin will now work even without the PHP directive "short_open_tag" turned "off".
+* The image can now get an own link, independet from the subtitle link, an additional link attributes to apply CSS classes etc.
 * GUI cleanup
 
 You will find more information on [pixelshifter.de](http://www.pixelshifter.de), but for now in german language only ... sorry for that.

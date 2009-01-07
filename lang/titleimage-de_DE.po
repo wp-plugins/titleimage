@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: titleimage\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-29 12:13+0100\n"
-"PO-Revision-Date: 2008-12-29 12:13+0100\n"
+"POT-Creation-Date: 2009-01-07 20:15+0100\n"
+"PO-Revision-Date: 2009-01-07 20:33+0100\n"
 "Last-Translator: Marc <marc@pixelshifter.de>\n"
 "Language-Team: pixelshifter.de <info@pixelshifter.de>\n"
 "MIME-Version: 1.0\n"
@@ -18,131 +18,143 @@ msgstr ""
 "X-Poedit-SearchPath-1: ..\n"
 
 #: ../admin.php:9
-#: ../admin.php:206
+#: ../admin.php:233
 msgid "pluginname_titleimage"
 msgstr "Titleimage"
 
-#: ../admin.php:32
+#: ../admin.php:34
 msgid "msg_nogalleryselected"
 msgstr "Derzeit ist keine Galerie ausgewählt. Es wird kein Bild angezeigt. "
 
-#: ../admin.php:40
+#: ../admin.php:42
 msgid "msg_imagewidth_adjusted"
 msgstr "Die Bildbreitenangabe wurde angepasst."
 
-#: ../admin.php:48
+#: ../admin.php:50
 msgid "msg_imageheight_adjusted"
 msgstr "Die Bildhöhenangabe wurde angepasst."
 
-#: ../admin.php:57
+#: ../admin.php:64
 msgid "msg_data_saved"
 msgstr "Die Angaben wurden gespeichert."
 
-#: ../admin.php:211
+#: ../admin.php:239
 msgid "lbl_status"
 msgstr "Status"
 
-#: ../admin.php:213
+#: ../admin.php:241
 msgid "lbl_active"
 msgstr "Aktiv"
 
-#: ../admin.php:219
+#: ../admin.php:247
 msgid "lbl_gallery"
 msgstr "Galerie"
 
-#: ../admin.php:222
+#: ../admin.php:250
 msgid "optval_selectgallery"
 msgstr "Galerie ausw&auml;hlen ..."
 
-#: ../admin.php:229
+#: ../admin.php:257
 msgid "lbl_imageselection"
 msgstr "Bildauswahl"
 
-#: ../admin.php:232
+#: ../admin.php:260
 msgid "optval_firstimage"
 msgstr "Erstes Bild"
 
-#: ../admin.php:233
+#: ../admin.php:261
 msgid "optval_randomimage"
 msgstr "Zuf&auml;lliges Bild"
 
-#: ../admin.php:234
+#: ../admin.php:262
 msgid "lbl_image"
 msgstr "Bild ..."
 
-#: ../admin.php:242
-msgid "lbl_imagesize"
-msgstr "Bildgröße"
+#: ../admin.php:270
+msgid "lbl_maximagesize"
+msgstr "Max. Bildgrößen"
 
-#: ../admin.php:244
-msgid "lbl_maximagewidth"
-msgstr "Max. Bildbreite"
+#: ../admin.php:272
+msgid "lbl_width"
+msgstr "Breite"
 
-#: ../admin.php:245
-msgid "lbl_maximageheight"
-msgstr "Max. Bildh&ouml;he"
+#: ../admin.php:273
+msgid "lbl_height"
+msgstr "Höhe"
 
-#: ../admin.php:251
-msgid "lbl_imagesubtitle"
-msgstr "Bilduntertitel"
+#: ../admin.php:278
+msgid "lbl_imageurl"
+msgstr "Bild-Link"
 
-#: ../admin.php:254
-msgid "optval_nosubtitle"
-msgstr "Kein Bilduntertitel"
-
-#: ../admin.php:255
-msgid "optval_gallerydescription"
-msgstr "Galeriebeschreibung"
-
-#: ../admin.php:256
-msgid "optval_imagedescription"
-msgstr "Bildbeschreibung"
-
-#: ../admin.php:257
-msgid "optval_individualtext"
-msgstr "Eigener Text"
-
-#: ../admin.php:268
-msgid "lbl_url"
-msgstr "Link"
-
-#: ../admin.php:268
+#: ../admin.php:278
+#: ../admin.php:284
+#: ../admin.php:307
 msgid "desc_optional"
 msgstr "Optional"
 
-#: ../admin.php:275
+#: ../admin.php:284
+msgid "lbl_imageurl_additions"
+msgstr "Bild-Link Attribute"
+
+#: ../admin.php:290
+msgid "lbl_imagesubtitle"
+msgstr "Bilduntertitel"
+
+#: ../admin.php:293
+msgid "optval_nosubtitle"
+msgstr "Kein Bilduntertitel"
+
+#: ../admin.php:294
+msgid "optval_gallerydescription"
+msgstr "Galeriebeschreibung"
+
+#: ../admin.php:295
+msgid "optval_imagedescription"
+msgstr "Bildbeschreibung"
+
+#: ../admin.php:296
+msgid "optval_individualtext"
+msgstr "Eigener Text"
+
+#: ../admin.php:307
+msgid "lbl_subtitleurl"
+msgstr "Untertitel-Link"
+
+#: ../admin.php:313
 msgid "lbl_style"
 msgstr "Stil"
 
-#: ../admin.php:276
+#: ../admin.php:314
 msgid "lbl_usedefaultstyle"
 msgstr "Default-Stil verwenden"
 
-#: ../admin.php:282
+#: ../admin.php:320
 msgid "btn_save"
 msgstr "Speichern"
 
-#: ../admin.php:330
-#: ../admin.php:348
+#: ../admin.php:372
+#: ../admin.php:392
 msgid "desc_no_description"
 msgstr "Keine Beschreibung verfügbar"
 
-#: ../admin.php:360
+#: ../admin.php:404
 msgid "help_basic_description"
 msgstr "<h5>Wozu \"Titleimage\" gut sein soll</h5><p>Das Plugin \"Titleimage\" stellt die PHP-Funktion <code style=\"background-color: #FFFDC0\">showTitleimage()</code> bereit, über die ein ausgewähltes oder zufälliges Bild aus einer Galerie des Plugins NextGEN Gallery dargestellt werden kann. Hierdurch ist es möglich z.B. auf der Startseite eine Art Titelbild anzuzeigen, welches immer an oberster Stelle platziert wird, unabhängig von den üblicherweise nach Datum sortierten aktuellen Posts.</p>"
 
-#: ../admin.php:361
+#: ../admin.php:405
 msgid "help_gui_description"
-msgstr "<h5>Optionen</h5><ul>\t<li>\t\t<strong>Status</strong><br/>\t\tSchaltet die Darstellung des Titelbildes generell an oder aus.\t</li>\t<li>\t\t<strong>Galerie</strong><br/>\t\tErmöglicht die Auswahl der Quellgalerie aus dem Plugin NextGEN Gallery.\t</li>\t<li><strong>Bildauswahl</strong><br/>\t\tLegt das anzuzeigende Bild aus der gewählten Galerie fest. Hierbei ist es möglich, das erste Bild, ein zufälliges Bild oder ein bestimmtes Bild für die Darstellung auszuwählen.\t</li>\t<li><strong>Bildgrö&szlig;e</strong><br/>\t\tLegt die maximale Bildbreite und/oder Bildhöhe fest, in der das Bild ausgegeben werden soll.\t</li>\t<li><strong>Bilduntertitel</strong><br/>\t\tSchaltet die Anzeige eines Bilduntertitels an Hand von verschiedenen Optionen an. Folgende Optionen sind möglich:\t\t<ul>\t\t\t<li>Galeriebeschreibung</li>\t\t\t<li>Bildbeschreibung</li>\t\t\t<li>Eigener Text</li>\t\t\t<li>Kein Bilduntertitel</li>\t\t</ul>\t</li>\t<li><strong>Link</strong><br/>\t\tErmöglicht die Angabe eines URL, mit dem der Bilduntertitel verlinkt wird.\t</li>\t<li><strong>Stil</strong><br/>\t\tDurch Aktivierung dieser Option wird angegeben, ob der Default Stil verwendet werden soll, oder das Design der Elemente über Stildefinitionen aus einer eigenen Stylesheet Datei erfolgt.\t</li></ul>"
+msgstr "<h5>Optionen</h5><ul>	<li>		<strong>Status</strong><br/>		Schaltet die Darstellung des Titelbildes generell an oder aus.	</li>	<li>		<strong>Galerie</strong><br/>		Ermöglicht die Auswahl der Quellgalerie aus dem Plugin NextGEN Gallery.	</li>	<li><strong>Bildauswahl</strong><br/>		Legt das anzuzeigende Bild aus der gewählten Galerie fest. Hierbei ist es möglich, das erste Bild, ein zufälliges Bild oder ein bestimmtes Bild für die Darstellung auszuwählen.	</li>	<li><strong>Maximale Bildgrö&szlig;en</strong><br/>		Legt die maximale Bildbreite und/oder Bildhöhe fest, in der das Bild ausgegeben werden soll.	</li>	<li><strong>Bild-Link</strong><br/>		Ermöglicht die Angabe eines URL, mit dem das Bild verlinkt wird.	</li>	<li><strong>Bild-link Attribute</strong><br/>		Erweiterte Attribute mit denen der Bild-Link versehen wird. Z.B. Klassenangaben für JavaScript Lightbox-Effekte etc.	</li>	<li><strong>Bilduntertitel</strong><br/>		Schaltet die Anzeige eines Bilduntertitels an Hand von verschiedenen Optionen an. Folgende Optionen sind möglich:		<ul>			<li>Galeriebeschreibung</li>			<li>Bildbeschreibung</li>			<li>Eigener Text</li>			<li>Kein Bilduntertitel</li>		</ul>	</li>	<li><strong>Untertitel Link</strong><br/>		Ermöglicht die Angabe eines URL, mit dem der Bilduntertitel verlinkt wird.	</li>	<li><strong>Stil</strong><br/>		Durch Aktivierung dieser Option wird angegeben, ob der Default Stil verwendet werden soll, oder das Design der Elemente über Stildefinitionen aus einer eigenen Stylesheet Datei erfolgt.	</li></ul>"
 
-#: ../admin.php:362
+#: ../admin.php:406
 msgid "help_use_in_templates"
 msgstr "<h5>Verwendung im Template</h5><p>Die Darstellung des ausgewählten Bildes muss in einer Template-Datei Deines Themes (z.B. in der index.php) mit Hilfe des folgenden PHP Funktionsaufrufes eingebunden werden:&lt;?php showTitleimage(); ?&gt;</p>"
 
-#: ../admin.php:363
+#: ../admin.php:407
 msgid "help_furtherinformation"
 msgstr "<h5>Weitere Informationen &amp; Ressourcen</h5><p>\t<a href=\"http://wordpress.org/extend/plugins/titleimage/\">wordpress.org/extend/plugins/titleimage/</a><br/>\t<a href=\"http://www.pixelshifter.de/titleimage\">www.pixelshifter.de/titleimage</a><br/></p>\t"
 
+#~ msgid "lbl_url"
+#~ msgstr "Link"
 #~ msgid "titleimage_description"
 #~ msgstr ""
 #~ "Dieses Plugin stellt die Funktion <code style=\"background-color: #FFFDC0"

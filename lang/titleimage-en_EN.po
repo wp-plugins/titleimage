@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: titleimage\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-29 12:13+0100\n"
+"POT-Creation-Date: 2009-01-07 20:15+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Marc <marc@pixelshifter.de>\n"
 "Language-Team: Marc Schmidt <marc@pixelshifter.de>\n"
@@ -18,131 +18,143 @@ msgstr ""
 "X-Poedit-SearchPath-1: ..\n"
 
 #: ../admin.php:9
-#: ../admin.php:206
+#: ../admin.php:233
 msgid "pluginname_titleimage"
 msgstr "Titleimage"
 
-#: ../admin.php:32
+#: ../admin.php:34
 msgid "msg_nogalleryselected"
 msgstr "No Gallery selected. No image will be displayed."
 
-#: ../admin.php:40
+#: ../admin.php:42
 msgid "msg_imagewidth_adjusted"
 msgstr "Imagewidth was adjusted"
 
-#: ../admin.php:48
+#: ../admin.php:50
 msgid "msg_imageheight_adjusted"
 msgstr "Imageheight was adjusted"
 
-#: ../admin.php:57
+#: ../admin.php:64
 msgid "msg_data_saved"
 msgstr "Data were saved"
 
-#: ../admin.php:211
+#: ../admin.php:239
 msgid "lbl_status"
 msgstr "State"
 
-#: ../admin.php:213
+#: ../admin.php:241
 msgid "lbl_active"
 msgstr "Active"
 
-#: ../admin.php:219
+#: ../admin.php:247
 msgid "lbl_gallery"
 msgstr "Gallery"
 
-#: ../admin.php:222
+#: ../admin.php:250
 msgid "optval_selectgallery"
 msgstr "Select gallery ..."
 
-#: ../admin.php:229
+#: ../admin.php:257
 msgid "lbl_imageselection"
 msgstr "Image selection"
 
-#: ../admin.php:232
+#: ../admin.php:260
 msgid "optval_firstimage"
 msgstr "First image"
 
-#: ../admin.php:233
+#: ../admin.php:261
 msgid "optval_randomimage"
 msgstr "Random image"
 
-#: ../admin.php:234
+#: ../admin.php:262
 msgid "lbl_image"
 msgstr "Image ..."
 
-#: ../admin.php:242
-msgid "lbl_imagesize"
-msgstr "Imagesize"
+#: ../admin.php:270
+msgid "lbl_maximagesize"
+msgstr "Max. Imagesize"
 
-#: ../admin.php:244
-msgid "lbl_maximagewidth"
-msgstr "Max. image width"
+#: ../admin.php:272
+msgid "lbl_width"
+msgstr "Width"
 
-#: ../admin.php:245
-msgid "lbl_maximageheight"
-msgstr "Max. image height"
+#: ../admin.php:273
+msgid "lbl_height"
+msgstr "Height"
 
-#: ../admin.php:251
-msgid "lbl_imagesubtitle"
-msgstr "Imagesubtitle"
+#: ../admin.php:278
+msgid "lbl_imageurl"
+msgstr "Image Link"
 
-#: ../admin.php:254
-msgid "optval_nosubtitle"
-msgstr "No Subtitle"
-
-#: ../admin.php:255
-msgid "optval_gallerydescription"
-msgstr "Gallery description"
-
-#: ../admin.php:256
-msgid "optval_imagedescription"
-msgstr "Image description"
-
-#: ../admin.php:257
-msgid "optval_individualtext"
-msgstr "Individual text"
-
-#: ../admin.php:268
-msgid "lbl_url"
-msgstr "Link"
-
-#: ../admin.php:268
+#: ../admin.php:278
+#: ../admin.php:284
+#: ../admin.php:307
 msgid "desc_optional"
 msgstr "Optional"
 
-#: ../admin.php:275
+#: ../admin.php:284
+msgid "lbl_imageurl_additions"
+msgstr "Image Link Attributes"
+
+#: ../admin.php:290
+msgid "lbl_imagesubtitle"
+msgstr "Imagesubtitle"
+
+#: ../admin.php:293
+msgid "optval_nosubtitle"
+msgstr "No Subtitle"
+
+#: ../admin.php:294
+msgid "optval_gallerydescription"
+msgstr "Gallery description"
+
+#: ../admin.php:295
+msgid "optval_imagedescription"
+msgstr "Image description"
+
+#: ../admin.php:296
+msgid "optval_individualtext"
+msgstr "Individual text"
+
+#: ../admin.php:307
+msgid "lbl_subtitleurl"
+msgstr "Subtitle Link"
+
+#: ../admin.php:313
 msgid "lbl_style"
 msgstr "Style"
 
-#: ../admin.php:276
+#: ../admin.php:314
 msgid "lbl_usedefaultstyle"
 msgstr "Use default style"
 
-#: ../admin.php:282
+#: ../admin.php:320
 msgid "btn_save"
 msgstr "Save"
 
-#: ../admin.php:330
-#: ../admin.php:348
+#: ../admin.php:372
+#: ../admin.php:392
 msgid "desc_no_description"
 msgstr "No description available"
 
-#: ../admin.php:360
+#: ../admin.php:404
 msgid "help_basic_description"
 msgstr "<h5>What is &quot;Titleimage&quot; good for?</h5><p>If you already use the fabulous plugin NextGEN Gallery than the titleimage plugin gives you the possibility to display the first or a random image from a selected NexGEN Gallery. This selected image will be displayed with the php function call showTitleimage(), which can be used inside your templates. The best place would be inside the index.php file directly after the get_header(); call.</p>"
 
-#: ../admin.php:361
+#: ../admin.php:405
 msgid "help_gui_description"
-msgstr "<h5>Options</h5><ul>\t<li>\t\t<strong>State</strong><br/>\t\tSwitches the display of the titleimage on or off.\t</li>\t<li>\t\t<strong>Gallery Selection</strong><br/>\t\tSelects the NGG Ressource-Gallery\t</li>\t<li><strong>Image Selection</strong><br/>\t\tSelects the image that should be displayed from the given gallery. It is possible to select the first image, a random image or a specified image.\t</li>\t<li><strong>Imagesize</strong><br/>\t\tDefines the maximum Imagewidth and -height.\t</li>\t<li><strong>Image Subtitle</strong><br/>\t\tEnables the image subtitle in different options:\t\t<ul>\t\t\t<li>Gallery description</li>\t\t\t<li>Image description</li>\t\t\t<li>Individual text</li>\t\t\t<li>No subtitlte</li>\t\t</ul>\t</li>\t<li><strong>Link</strong><br/>\t\tAn URL eith which the subtitle will be linked.\t</li>\t<li><strong>Stil</strong><br/>\t\tDefines wether the default CSS or an individual CSS File should be used.\t</li></ul>"
+msgstr "<h5>Options</h5><ul>	<li>		<strong>State</strong><br/>		Switches the display of the titleimage on or off.	</li>	<li>		<strong>Gallery Selection</strong><br/>		Selects the NGG Ressource-Gallery	</li>	<li><strong>Image Selection</strong><br/>		Selects the image that should be displayed from the given gallery. It is possible to select the first image, a random image or a specified image.	</li>	<li><strong>Imagesize</strong><br/>		Defines the maximum Imagewidth and -height.	</li>	<li><strong>Image Link</strong><br/>		An URL with which the image will be linked.	</li>	<li><strong>Image Link Attributes</strong><br/>		Additional attributes for the image link to apply CSS classes for Javascript Lightbox Effects etc.	</li>	<li><strong>Image Subtitle</strong><br/>		Enables the image subtitle in different options:		<ul>			<li>Gallery description</li>			<li>Image description</li>			<li>Individual text</li>			<li>No subtitlte</li>		</ul>	</li>	<li><strong>Subtitle Link</strong><br/>		An URL with which the subtitle will be linked.	</li>	<li><strong>Stil</strong><br/>		Defines wether the default CSS or an individual CSS File should be used.	</li></ul>"
 
-#: ../admin.php:362
+#: ../admin.php:406
 msgid "help_use_in_templates"
 msgstr "<h5>Usage in Templates</h5><p>To show the selected image please use the following PHP function call in your template (e.g. on your index.php):<br/>&lt;?php showTitleimage(); ?&gt;</p>"
 
-#: ../admin.php:363
+#: ../admin.php:407
 msgid "help_furtherinformation"
 msgstr "<h5>More Information &amp; Ressources</h5><p>\t<a href=\"http://wordpress.org/extend/plugins/titleimage/\">wordpress.org/extend/plugins/titleimage/</a><br/>\t<a href=\"http://www.pixelshifter.de/titleimage\">www.pixelshifter.de/titleimage</a><br/></p>"
 
+#~ msgid "lbl_url"
+#~ msgstr "Link"
 #~ msgid "titleimage_description"
 #~ msgstr ""
 #~ "This plugin provides the function <code style=\"background-color: #FFFDC0"

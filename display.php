@@ -28,10 +28,6 @@
 		global $wpdb, $titleimage;
 
 
-//		print '<pre>';
-//		print_r($titleimage);
-//		print '</pre>';
-
 		if (is_paged() || $titleimage['state'] != 'true') {
 			
 			// display only if on startpage and display status is 'true'
@@ -40,13 +36,6 @@
 		}
 
 		$picturelist = $wpdb->get_results("SELECT * FROM $wpdb->nggpictures WHERE galleryid = '".$titleimage['galleryid']."' ORDER BY sortorder ASC");
-		
-//		print '<pre>';
-//		print_r($picturelist);
-//		print '</pre>';
-
-//		print_r ($albumdetails);
-
 
 		if (!$picturelist) {
 
@@ -89,9 +78,17 @@
 
 			}
 			
-			$image_link = $picture->imageURL;
-
-			$disp_description = '';
+			if ($titleimage['imageurl'] != '') {
+				$image_link = $titleimage['imageurl'];
+			} else {
+				$image_link = $picture->imageURL;
+			}
+			
+			if ($titleimage['imageurl_additions'] != '') {
+				$image_link_additions = htmlspecialchars_decode($titleimage['imageurl_additions']);
+			} else {
+				$image_link_additions = 'class="lightview"';
+			}
 
 			switch ($titleimage['showtitle']) {
 
@@ -115,7 +112,7 @@
 					
 				case 'individual':
 
-					$disp_description = stripslashes($titleimage['description']);
+					$disp_description = $titleimage['description'];
 
 					break;
 						
@@ -124,7 +121,10 @@
 
 			if ($disp_description != '' && $titleimage['url'] != '') {
 				$disp_description = '<a href="'.$titleimage['url'].'">'.$disp_description.'</a>';
+				
 			}
+
+
 
 		}
 
@@ -132,11 +132,11 @@
 		<div id="Titleimage">
 			<div class="TI_Inner">
 				<div class="TI_Image">
-					<a href="<?=$image_link?>" class="lightview"><img src="<?=$image_path?>" /></a>
+					<a href="<?php echo $image_link?>" <?php echo $image_link_additions?>><img src="<?php echo $image_path?>" /></a>
 				</div>
 				<?php if ($disp_description != '') { ?>
 				<div class="TI_Description">
-					<p><?=$disp_description?></p>
+					<p><?php echo $disp_description?></p>
 				</div>
 				<?php } ?>
 			</div>
