@@ -4,7 +4,7 @@ Donate link:
 Tags: image, post
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 0.7
+Stable tag: 0.7.1
 
 This plugin displays a manually or randomly selected image of a chosen gallery from the great plugin NextGEN Gallery.
 
@@ -29,9 +29,11 @@ Localizations:
 * German
 * English
 
+= New in Version 0.7.1 =
+* Added htmlspecialchars_decode function for installation on php 4.* versions. 
 
 = New in Version 0.7 =
-* The plugin will now work even without the PHP directive "short_open_tag" turned "on".
+* The plugin will now work even without the PHP directive "short_open_tag" turned "off".
 * The image can now get an own link, independet from the subtitle link, an additional link attributes to apply CSS classes etc.
 * GUI cleanup
 
